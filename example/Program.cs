@@ -7,7 +7,7 @@
 //if
 
 
-
+//naming days
 Console.WriteLine("what day off the week is it? (type the number)");
 Console.WriteLine("Monday (1");
 Console.WriteLine("Tuesday (2");
@@ -19,11 +19,11 @@ Console.WriteLine("Saturday (7");
 Console.WriteLine();
 
 Console.Write(">> ");
-
+//convert days
 string x = Console.ReadLine()+"";
 Console.WriteLine();
 
-
+//output the days
 switch (x)
 {
     case "7":
@@ -61,4 +61,5 @@ switch (x)
 }
 Console.WriteLine();
 
+//writs the endpoint
 Console.WriteLine(x);
